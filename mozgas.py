@@ -8,15 +8,14 @@ def elmozdulas(utvonal):
 
     for mozgás in utvonal:
         if mozgás == 'F':
-            y += 1  # Felfelé mozgunk
+            y += 1  
         elif mozgás == 'L':
-            y -= 1  # Lefelé mozgunk
+            y -= 1  
         elif mozgás == 'J':
-            x += 1  # Jobbra mozgunk
+            x += 1  
         elif mozgás == 'B':
-            x -= 1  # Balra mozgunk
-
-    # Ha nem mozdultunk el a kiinduló pozícióhoz képest
+            x -= 1  
+            
     if x == 0 and y == 0:
         return "Nem mentünk sehova"
     
